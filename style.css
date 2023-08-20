@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Playfair Display", serif;
+}
+nav {
+  height: 100px;
+  background-color: rgb(223, 102, 45);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.logoDiv {
+  color: white;
+  font-size: 25px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  padding-left: 25px;
+  font-size: 23px;
+  color: white;
+  cursor: pointer;
+}
+nav li:hover {
+  color: rgb(63, 63, 63);
+}
+.container {
+  height: 750px;
+}
+main {
+}
+.box1 h1 {
+  color: rgb(24, 70, 143);
+}
+.image img {
+  width: 700px;
+}
+.box1 p {
+  font-size: 18px;
+}
+.box1 button {
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: 1px solid rgb(223, 102, 45);
+  background-color: rgb(223, 102, 45);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.box1 button:hover {
+background-color: rgb(214, 157, 131);
+}
+.box1 {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box2 {
+  display: flex;
+  height: 200px;
+  width: 700px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.image2 img {
+  width: 700px;
+  height: 500px;
+}
+.container2 {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box2 h1 {
+  border-left: 5px solid red;
+}
+.box2 p {
+  font-size: 20px;
+}
+.sec1 {
+  height: 600px;
+  margin-top: 50px;
+  background-color: rgb(223, 102, 45);
+  color: white;
+}
+.texth1 h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.icons p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.icons button {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.icons button:hover{
+  background-color: rgb(123, 123, 255);
+  border: 1px solid rgb(15, 15, 27);
+
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.icon1 img{
+  transition: transform 0.5s ease-in-out;
+
+}
+.icon2 img{
+  transition: transform 0.5s ease-in-out;
+
+}
+.icon3 img{
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.icon1 img:hover{
+  transform: rotate(360deg);
+
+}
+.icon2 img:hover{
+  transform: rotate(360deg);
+
+}
+.icon3 img:hover{
+  transform: rotate(360deg);
+
+}
+.sec2 {
+  height: 450px;
+}
+.sec2 h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.parts {
+  display: flex;
+  justify-content: space-around;
+}
+.parts h3 {
+  color: blue;
+  font-size: 23px;
+}
+.parts li {
+  padding-top: 30px;
+  font-size: 20px;
+}
+footer {
+  height: 100px;
+  background-color: rgb(223, 102, 45);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer p {
+  font-size: 20px;
+}
